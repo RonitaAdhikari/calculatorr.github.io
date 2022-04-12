@@ -13,22 +13,22 @@ int main()
 	if(ch=='+')
 	{
 		x=a+b;
-		printf("The sum of %f and %f is %f\n",a,b,x);
+		printf("The addition of %f and %f is %f\n",a,b,x);
 	}
 	else if(ch=='-')
 	{
 		x=a-b;
-		printf("The sum of %f and %f is %f\n",a,b,x);
+		printf("The substraction of %f and %f is %f\n",a,b,x);
 	}
 	else if(ch=='*')
 	{
 		x=a*b;
-		printf("The sum of %f and %f is %f\n",a,b,x);
+		printf("The multiplication of %f and %f is %f\n",a,b,x);
 	}
 	else if(ch=='/')
 	{
 		x=a/b;
-		printf("The sum of %f and %f is %f\n",a,b,x);
+		printf("The division of %f and %f is %f\n",a,b,x);
 	}
 	return 0;
 }
